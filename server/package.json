@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3005",
+    "dev": "next dev -p 8080",
     "dev:worker": "vite dev",
     "build": "next build",
-    "start": "next start -p 3005",
+    "start": "next start -p 8080",
     "lint": "eslint .",
     "codegen": "graphql-codegen --config codegen.ts",
     "db:generate": "drizzle-kit generate",
