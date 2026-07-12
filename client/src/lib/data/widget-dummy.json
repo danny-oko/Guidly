@@ -1,0 +1,60 @@
+{
+  "calendar": {
+    "month": 5,
+    "year": 2024,
+    "selectedDate": "2024-05-15",
+    "highlightedDates": ["2024-05-15", "2024-05-18", "2024-05-22", "2024-05-28"]
+  },
+  "notifications": {
+    "unreadCount": 3
+  },
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Team daily planning",
+      "location": "East camp, Room 200",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "type": "meeting",
+      "participants": [
+        { "id": "p1", "name": "Alex Chen" },
+        { "id": "p2", "name": "Jordan Lee" },
+        { "id": "p3", "name": "Sam Rivera" }
+      ],
+      "extraParticipantCount": 3
+    },
+    {
+      "id": "evt-2",
+      "title": "University application review",
+      "location": "Online — Zoom",
+      "startTime": "09:30",
+      "endTime": "10:15",
+      "type": "interview"
+    },
+    {
+      "id": "evt-3",
+      "title": "Essay draft deadline",
+      "location": "Personal statement — UCAS",
+      "startTime": "12:00",
+      "endTime": "12:00",
+      "type": "deadline"
+    },
+    {
+      "id": "evt-4",
+      "title": "Campus visit — Oxford",
+      "location": "Oxford University, Main Hall",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "type": "workshop",
+      "participants": [{ "id": "p4", "name": "Dr. Morgan" }]
+    },
+    {
+      "id": "evt-5",
+      "title": "Game plan check-in",
+      "location": "Advisor office, Room 104",
+      "startTime": "17:00",
+      "endTime": "17:45",
+      "type": "meeting"
+    }
+  ]
+}

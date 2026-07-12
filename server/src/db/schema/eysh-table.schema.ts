@@ -1,0 +1,10 @@
+import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
+
+
+export const eyshTable = sqliteTable('eysh', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  name: text('name').notNull(),
+  score: integer('score'),
+  majors: text('majors', { mode: 'json' }).$type<string[]>(),
+});
+

@@ -1,0 +1,16 @@
+{
+  "name": "example-server",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-02-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "team2-education-db",
+      "database_id": "dcf3868b-834a-4de8-9a46-8bd2f91fafb4",
+      "remote": true,
+      "migrations_dir": "drizzle",
+    },
+  ],
+}

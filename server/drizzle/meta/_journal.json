@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1779693969774,
+      "tag": "20260525072609_thick_grandmaster",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1779978799302,
+      "tag": "20260528143000_add_clerk_user_id_to_profiles",
+      "breakpoints": false
+    }
+  ]
+}
